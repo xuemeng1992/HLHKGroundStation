@@ -437,11 +437,11 @@ namespace HLHKGroundStation
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(47, 14);
+            this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.label1.Location = new System.Drawing.Point(55, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 22);
+            this.label1.Size = new System.Drawing.Size(99, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "高度（M）";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -450,11 +450,11 @@ namespace HLHKGroundStation
             // 
             this.label_height.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_height.AutoSize = true;
-            this.label_height.Font = new System.Drawing.Font("宋体", 25F);
+            this.label_height.Font = new System.Drawing.Font("宋体", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_height.ForeColor = System.Drawing.Color.Magenta;
-            this.label_height.Location = new System.Drawing.Point(64, 54);
+            this.label_height.Location = new System.Drawing.Point(58, 51);
             this.label_height.Name = "label_height";
-            this.label_height.Size = new System.Drawing.Size(81, 42);
+            this.label_height.Size = new System.Drawing.Size(92, 47);
             this.label_height.TabIndex = 1;
             this.label_height.Text = "0.0";
             this.label_height.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -480,11 +480,11 @@ namespace HLHKGroundStation
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(35, 14);
+            this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.label2.Location = new System.Drawing.Point(45, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 22);
+            this.label2.Size = new System.Drawing.Size(119, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "地速（M/S）";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -493,11 +493,11 @@ namespace HLHKGroundStation
             // 
             this.label_speed.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_speed.AutoSize = true;
-            this.label_speed.Font = new System.Drawing.Font("宋体", 25F);
+            this.label_speed.Font = new System.Drawing.Font("宋体", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_speed.ForeColor = System.Drawing.Color.Gold;
-            this.label_speed.Location = new System.Drawing.Point(64, 54);
+            this.label_speed.Location = new System.Drawing.Point(58, 51);
             this.label_speed.Name = "label_speed";
-            this.label_speed.Size = new System.Drawing.Size(81, 42);
+            this.label_speed.Size = new System.Drawing.Size(92, 47);
             this.label_speed.TabIndex = 1;
             this.label_speed.Text = "0.0";
             this.label_speed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -523,11 +523,11 @@ namespace HLHKGroundStation
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(24, 14);
+            this.label3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.label3.Location = new System.Drawing.Point(35, 15);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 22);
+            this.label3.Size = new System.Drawing.Size(139, 20);
             this.label3.TabIndex = 0;
             this.label3.Text = "航点距离（M）";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -536,11 +536,11 @@ namespace HLHKGroundStation
             // 
             this.label_distance.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_distance.AutoSize = true;
-            this.label_distance.Font = new System.Drawing.Font("宋体", 25F);
+            this.label_distance.Font = new System.Drawing.Font("宋体", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_distance.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label_distance.Location = new System.Drawing.Point(64, 54);
+            this.label_distance.Location = new System.Drawing.Point(58, 51);
             this.label_distance.Name = "label_distance";
-            this.label_distance.Size = new System.Drawing.Size(81, 42);
+            this.label_distance.Size = new System.Drawing.Size(92, 47);
             this.label_distance.TabIndex = 1;
             this.label_distance.Text = "0.0";
             this.label_distance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -566,11 +566,11 @@ namespace HLHKGroundStation
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(35, 14);
+            this.label5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.label5.Location = new System.Drawing.Point(45, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 22);
+            this.label5.Size = new System.Drawing.Size(119, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "偏航（deg）";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -579,11 +579,11 @@ namespace HLHKGroundStation
             // 
             this.label_yaw.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_yaw.AutoSize = true;
-            this.label_yaw.Font = new System.Drawing.Font("宋体", 25F);
+            this.label_yaw.Font = new System.Drawing.Font("宋体", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_yaw.ForeColor = System.Drawing.Color.Lime;
-            this.label_yaw.Location = new System.Drawing.Point(64, 54);
+            this.label_yaw.Location = new System.Drawing.Point(58, 51);
             this.label_yaw.Name = "label_yaw";
-            this.label_yaw.Size = new System.Drawing.Size(81, 42);
+            this.label_yaw.Size = new System.Drawing.Size(92, 47);
             this.label_yaw.TabIndex = 1;
             this.label_yaw.Text = "0.0";
             this.label_yaw.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -609,11 +609,11 @@ namespace HLHKGroundStation
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(12, 14);
+            this.label7.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.label7.Location = new System.Drawing.Point(25, 15);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(184, 22);
+            this.label7.Size = new System.Drawing.Size(159, 20);
             this.label7.TabIndex = 0;
             this.label7.Text = "升降速度（M/S）";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -622,11 +622,11 @@ namespace HLHKGroundStation
             // 
             this.label_verticalspeed.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_verticalspeed.AutoSize = true;
-            this.label_verticalspeed.Font = new System.Drawing.Font("宋体", 25F);
+            this.label_verticalspeed.Font = new System.Drawing.Font("宋体", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_verticalspeed.ForeColor = System.Drawing.Color.Yellow;
-            this.label_verticalspeed.Location = new System.Drawing.Point(64, 54);
+            this.label_verticalspeed.Location = new System.Drawing.Point(58, 51);
             this.label_verticalspeed.Name = "label_verticalspeed";
-            this.label_verticalspeed.Size = new System.Drawing.Size(81, 42);
+            this.label_verticalspeed.Size = new System.Drawing.Size(92, 47);
             this.label_verticalspeed.TabIndex = 1;
             this.label_verticalspeed.Text = "0.0";
             this.label_verticalspeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -652,11 +652,11 @@ namespace HLHKGroundStation
             // 
             this.label_disttohome.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_disttohome.AutoSize = true;
-            this.label_disttohome.Font = new System.Drawing.Font("宋体", 25F);
+            this.label_disttohome.Font = new System.Drawing.Font("宋体", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_disttohome.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label_disttohome.Location = new System.Drawing.Point(64, 54);
+            this.label_disttohome.Location = new System.Drawing.Point(58, 51);
             this.label_disttohome.Name = "label_disttohome";
-            this.label_disttohome.Size = new System.Drawing.Size(81, 42);
+            this.label_disttohome.Size = new System.Drawing.Size(92, 47);
             this.label_disttohome.TabIndex = 1;
             this.label_disttohome.Text = "0.0";
             this.label_disttohome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -665,11 +665,11 @@ namespace HLHKGroundStation
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(21, 14);
+            this.label9.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.label9.Location = new System.Drawing.Point(35, 15);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(166, 22);
+            this.label9.Size = new System.Drawing.Size(139, 20);
             this.label9.TabIndex = 0;
             this.label9.Text = "DistToHome(M)";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -891,7 +891,6 @@ namespace HLHKGroundStation
             this.gMap.TabIndex = 4;
             this.gMap.Zoom = 0D;
             this.gMap.Load += new System.EventHandler(this.gMap_Load);
-            
             // 
             // Commands
             // 

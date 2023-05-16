@@ -43,13 +43,11 @@ namespace HLHKGroundStation
             tableLayoutPanel11.Visible = false;
             Commands.Visible = false;
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             dv1 = new Device();
             dv1.linkEvent += Dv1_linkEvent;
         }
-
         private void Dv1_linkEvent(MAVState MAV, string Ip)
         {
             pitchAndBank1.Bank = MAV.cs.roll;
@@ -73,7 +71,6 @@ namespace HLHKGroundStation
             //swpc.addvehiclemarker(MAV.cs.lat, MAV.cs.lng, MAV.cs.yaw);
 
         }
-
         private void gMap_Load(object sender, EventArgs e)
         {
             gMap.CacheLocation = System.Windows.Forms.Application.StartupPath + "\\GMapCache\\";
@@ -150,8 +147,8 @@ namespace HLHKGroundStation
             {
                 if (swpc.totalWPlist.Count == 0)
                 {
-                    swpc.totalWPlist.Add(new PointLatLngAlt(gMap.FromLocalToLatLng(e.X, e.Y).Lat, gMap.FromLocalToLatLng(e.X, e.Y).Lng, Commands.Rows.Count, "H"));
-                    swpc.addpolygonmarker_sec("H", gMap.FromLocalToLatLng(e.X, e.Y).Lat, gMap.FromLocalToLatLng(e.X, e.Y).Lng, 20, null);
+                    swpc.totalWPlist.Add(new PointLatLngAlt(gMap.FromLocalToLatLng(e.X, e.Y).Lat, gMap.FromLocalToLatLng(e.X, e.Y).Lng, 0, "H"));
+                    swpc.addpolygonmarker_sec("H", gMap.FromLocalToLatLng(e.X, e.Y).Lat, gMap.FromLocalToLatLng(e.X, e.Y).Lng, 0, null);
                     swpc.reDrawAllRoute();
                     return;
                 }
@@ -169,7 +166,7 @@ namespace HLHKGroundStation
                 Commands.Rows[swpc.totalWPlist.Count - 1].Cells[6].Value = gMap.FromLocalToLatLng(e.X, e.Y).Lng;
                 Commands.Rows[swpc.totalWPlist.Count - 1].Cells[7].Value = 20;//默认高度20M
 
-                swpc.totalWPlist.Add(new PointLatLngAlt(gMap.FromLocalToLatLng(e.X, e.Y).Lat, gMap.FromLocalToLatLng(e.X, e.Y).Lng, Commands.Rows.Count, swpc.totalWPlist.Count.ToString()));///这里一定不能使用默认航速default_WP_spd
+                swpc.totalWPlist.Add(new PointLatLngAlt(gMap.FromLocalToLatLng(e.X, e.Y).Lat, gMap.FromLocalToLatLng(e.X, e.Y).Lng, 20, swpc.totalWPlist.Count.ToString()));///这里一定不能使用默认航速default_WP_spd
                 swpc.addpolygonmarker_sec((swpc.totalWPlist.Count - 1).ToString(), gMap.FromLocalToLatLng(e.X, e.Y).Lat, gMap.FromLocalToLatLng(e.X, e.Y).Lng, 20, null);
                 swpc.reDrawAllRoute();
             }
